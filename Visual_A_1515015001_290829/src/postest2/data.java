@@ -1,3 +1,5 @@
+package postest2;
+
 
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JOptionPane;
