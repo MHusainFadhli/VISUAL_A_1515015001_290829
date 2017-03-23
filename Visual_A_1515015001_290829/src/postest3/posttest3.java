@@ -27,9 +27,9 @@ public class posttest3 extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jBottom2 = new javax.swing.JButton();
         menu = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
-        jBottom2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         konten = new javax.swing.JPanel();
         home = new javax.swing.JPanel();
@@ -37,6 +37,13 @@ public class posttest3 extends javax.swing.JFrame {
         profile = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
+
+        jBottom2.setText("profile");
+        jBottom2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jBottom2ActionPerformed(evt);
+            }
+        });
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -50,14 +57,6 @@ public class posttest3 extends javax.swing.JFrame {
             }
         });
         menu.add(jButton1);
-
-        jBottom2.setText("profile");
-        jBottom2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jBottom2ActionPerformed(evt);
-            }
-        });
-        menu.add(jBottom2);
 
         jButton3.setText("exit");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
